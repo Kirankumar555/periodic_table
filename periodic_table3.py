@@ -1893,32 +1893,32 @@ def Ga_page():
     Name=Label(info,text='Lithium:')
     Name.config(font=("courier",24))
     Name.pack()
-    Discovery=Label(info,text='(Discovery year : 1817)')
+    Discovery=Label(info,text='(Discovery year : 1875)')
     Discovery.pack()
-    basic_info=Label(info,text='Atomic no=3 , Group=1 ,Period=2 ,Block= S , CAS Number=7439-93-2')
+    basic_info=Label(info,text='Atomic no=31 , Group=13 ,Period=4 ,Block= p , CAS Number=7440-55-3')
     basic_info.config(font=("courier",12))
     basic_info.pack()
     content=Text(info,height=30,width=150,font=22)
     content.pack()
     
     content.insert(END,'PROPERTIES:-\n\n')
-    atomic_properties={"Atomic_weight (g / mol) = ":'6.94' ,
-                       "Oxidation_state = ":'[-1,+1]' ,
-                       "Atomic_radius (pm)= ":'161',
-                       "Covelent_radius(pm) = ":'128 (0.16%  error)' ,
-                       "Van der waals radius (pm)=":'182',
-                       "Boiling_point(Celcius) = " :'1342',
-                       "Melting_point(Celcius) =":'180.54',
-                       "Electron_affinity( kj / mol) = ":'59.6',
-                       "First ionization energy (kJ/mol)=":'1312',
-                       "Refractive_index = ": '1.000132',
-                       "Speed_of_sound( m/s) = ": '1270',
-                       "Latent heat of Fusion (KJ/mol)=":'0.558',
-                       "Latent heat of Vapourization (kJ/mol)=":'0.452',
-                       "Specific heat (J/kgK)=":'14300',
-                       "Thermal conductivity (W/m K)=":'0.1805',
-                       "Electronegetivity=":'2.2',
-                       "Neutron cross-section (barn)=":'0.007'
+    atomic_properties={"Atomic_weight (g / mol) = ":'69.723' ,
+                       "Oxidation_state = ":'[+3]' ,
+                       "Atomic_radius (pm)= ":'136',
+                       "Covelent_radius(pm) = ":'122' ,
+                       "Van der waals radius (pm)=":'187',
+                       "Boiling_point(Celcius) = " :'2204',
+                       "Melting_point(Celcius) =":'29.76',
+                       "Electron_affinity( kj / mol) = ":'28.9',
+                       "First ionization energy (kJ/mol)=":'578.8',
+                       
+                       "Speed_of_sound( m/s) = ": '2740',
+                       "Latent heat of Fusion (KJ/mol)=":'5.59',
+                       "Latent heat of Vapourization (kJ/mol)=":'256',
+                       "Specific heat (J/kgK)=":'371',
+                       "Thermal conductivity (W/m K)=":'29',
+                       "Electronegetivity=":'1.81',
+                       "Neutron cross-section (barn)=":'2.9'
                        }
     
     for prop in atomic_properties:
